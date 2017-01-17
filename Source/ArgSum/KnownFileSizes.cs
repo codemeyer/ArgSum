@@ -35,25 +35,27 @@ namespace ArgSum
     {
         private static readonly Dictionary<long, string> Files = new Dictionary<long, string>
         {
-             { 14, "F1GP Setup File" },
-             { 326, "F1GP Multi-Setup File" },
-             { 1166, "F1GP Preferences (F1PREFS.DAT)" },
-             { 1484, "F1GP Name File" },
-             { 16924, "F1GP Track Phoenix (F1CT01.DAT)" },
-             { 15453, "F1GP Track Interlagos (F1CT02.DAT)" },
-             { 15905, "F1GP Track Imola (F1CT01.DAT)" },
-             { 20497, "F1GP Track Monte Carlo (F1CT04.DAT)" },
-             { 15081, "F1GP Track Montreal (F1CT05.DAT)" },
-             { 13541, "F1GP Track Mexico City (F1CT06.DAT)" },
-             { 15640, "F1GP Track Magny-Cours (F1CT07.DAT)" },
-             { 14561, "F1GP Track Silverstone (F1CT08.DAT)" },
-             { 14834, "F1GP Track Hockenheim (F1CT09.DAT)" },
-             { 14550, "F1GP Track Hungaroring (F1CT10.DAT)" },
-             { 18500, "F1GP Track Spa-Francorchamps (F1CT11.DAT)" },
-             { 15020, "F1GP Track Monza (F1CT12.DAT)" },
-             { 13368, "F1GP Track Estoril (F1CT13.DAT)" },
-             { 14329, "F1GP Track Barcelona (F1CT14.DAT)" },
-             { 15801, "F1GP Track Suzuka (F1CT15.DAT) or Adelaide (F1CT16.DAT)" }
+            { 14, "F1GP Setup File" },
+            { 326, "F1GP Multi-Setup File" },
+            { 1166, "F1GP Preferences (F1PREFS.DAT)" },
+            { 1484, "F1GP Name File" },
+            { 3578, "F1GP Saved Game (Between races)"  },
+            { 16924, "F1GP Track Phoenix (F1CT01.DAT)" },
+            { 15453, "F1GP Track Interlagos (F1CT02.DAT)" },
+            { 15905, "F1GP Track Imola (F1CT01.DAT)" },
+            { 20497, "F1GP Track Monte Carlo (F1CT04.DAT)" },
+            { 15081, "F1GP Track Montreal (F1CT05.DAT)" },
+            { 13541, "F1GP Track Mexico City (F1CT06.DAT)" },
+            { 15640, "F1GP Track Magny-Cours (F1CT07.DAT)" },
+            { 14561, "F1GP Track Silverstone (F1CT08.DAT)" },
+            { 14834, "F1GP Track Hockenheim (F1CT09.DAT)" },
+            { 14550, "F1GP Track Hungaroring (F1CT10.DAT)" },
+            { 18500, "F1GP Track Spa-Francorchamps (F1CT11.DAT)" },
+            { 15020, "F1GP Track Monza (F1CT12.DAT)" },
+            { 13368, "F1GP Track Estoril (F1CT13.DAT)" },
+            { 14329, "F1GP Track Barcelona (F1CT14.DAT)" },
+            { 15801, "F1GP Track Suzuka (F1CT15.DAT) or Adelaide (F1CT16.DAT)" },
+            { 26736, "F1GP Saved Game (In-race)" }
         };
 
         private static readonly IEnumerable<KnownFileSizeRange> ApproxFiles = new List<KnownFileSizeRange>
